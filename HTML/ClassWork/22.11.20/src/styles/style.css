@@ -1,0 +1,63 @@
+:root{
+    --width-card:400px;
+    --height-card:300px;
+    --color-circle:rgba(255, 255, 255, 0.5);
+}
+
+.container{
+    position: relative;
+    top: 50px;
+    width: var(--width-card);
+    height: var(--height-card);
+    margin:0 auto;
+    border-radius: 10px;;
+    background-color: red;
+    overflow: hidden;
+}
+
+.info{
+    position: relative;
+    top:50px;
+    left: 45px;
+}
+
+.info>p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    font-size: 18px;
+    
+}
+
+.price{
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.percentage{
+    font-size: 16px;
+}
+
+.topCircle{
+    position: relative;
+    border-radius: 50%;
+    top: -190px;
+    left: 210px;
+    width: calc(var(--width-card)/1.5);
+    height: calc(var(--width-card)/1.5);
+    background-color:var(--color-circle);
+    z-index: 1;
+}
+
+.bottomCircle{
+    position: relative;
+    border-radius: 50%;
+    top: -250px;
+    left: 140px;
+    width: calc(var(--width-card)/1.5);
+    height: calc(var(--width-card)/1.5);
+    background-color:var(--color-circle);
+    z-index: 1;
+}

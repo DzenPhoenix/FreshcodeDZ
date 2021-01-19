@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 20px;
+  --width-main: 30vw;
+  --height-main: calc(var(--width-main) * 1.2);
+  --height-form: calc(var(--height-main) * 0.75);
+  --color-primary: lightgrey;
+  --color-secondary: green;
+}
+
+/*div{
+    border: 1px solid blue;
+}*/
+
+.mainContainer {
+  width: var(--width-main);
+  height: var(--height-main);
+  background-color: var(--color-primary);
+  margin: 5vh auto;
+  text-align: center;
+}
+
+.registerContainer {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.line {
+  width: 25%;
+  height: 1px;
+  background-color: black;
+}
+
+.mainContainer > h1 {
+  width: 40%;
+  font-size: 2rem;
+  padding-top: 2vh;
+  margin: 0 auto;
+}
+
+.mainContainer > p {
+  width: 95%;
+  font-size: 0.9rem;
+  margin: 0 auto;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+
+form {
+  width: 100%;
+  height: var(--height-form);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+form > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input {
+  display: block;
+}
+
+.firstLastName {
+  width: 95%;
+  height: 5vh;
+}
+
+.firstLastName > input {
+  width: 47%;
+  height: 100%;
+  padding-left: 2%;
+  font-size: 0.8rem;
+  border-radius: 10px solid var(--color-primary);
+}
+
+form > input {
+  width: 95%;
+  height: 5vh;
+  font-size: 0.8rem;
+  padding-left: 2%;
+  border-radius: 10px solid var(--color-primary);
+}
+
+.checkboxContainer {
+  width: 95%;
+}
+
+.checkboxContainer a {
+  text-decoration: none;
+  color: red;
+}
+
+input[type="submit"] {
+  background-color: var(--color-secondary);
+  color: white;
+}

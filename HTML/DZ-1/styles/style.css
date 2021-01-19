@@ -1,0 +1,43 @@
+
+
+headerDiv h1{
+    display: inline;
+}
+
+.headerDiv{
+    text-align: center; 
+}
+
+.primaryDiv{
+    width:100%;
+    display: flex;
+  
+    background-color: antiquewhite;
+}
+
+.mainInfo{
+    width: 73%;
+    min-width: 555px;
+    padding-top:20px ;
+    padding-left:50px;
+    font-size: 30px; 
+}
+
+.photo{
+    width:auto;
+    flex-wrap: wrap;
+}
+
+.photo img{
+    height:100%;
+}
+
+.secondaryDiv{
+    width: 100%;
+    min-width: 1000px;
+    background-color: antiquewhite;
+    padding-top:20px ;
+    padding-left:50px;
+    font-size: 30px; 
+    border: 2px solid green;
+}

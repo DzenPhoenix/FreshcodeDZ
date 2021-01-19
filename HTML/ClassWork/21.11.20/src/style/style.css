@@ -1,0 +1,97 @@
+:root{
+    --card-Width:400px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.cardContainer{
+    margin: 0 auto;;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: var(--card-Width);
+    height: calc(var(--card-Width)*1.35);
+    border-radius: calc(var(--card-Width)/10);  
+    overflow: hidden;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border: 1px solid blue;
+}
+
+.cardTop{
+    overflow: hidden;
+    width: inherit;
+    height: calc(var(--card-Width)/2);
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.nightsky{
+   width: inherit; 
+}
+
+.pencilIcon{
+    position: absolute;
+    top: calc(var(--card-Width)/10);
+    right: calc(var(--card-Width)/10);
+    z-index: 1;
+    cursor: -webkit-grab;
+}
+
+.userInfo{
+    width: inherit;
+    height: calc(var(--card-Width)*0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.userInfo > p{
+    color: rgb(200, 200, 200);
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.userInfo>h1{
+    margin-top: calc(var(--card-Width)*0.25);
+}
+
+.userShortInfo + p {
+    font-size: 16px;
+}
+
+.userDescription{
+    margin-top: 10px;
+    width: calc(var(--card-Width)*0.68);
+    text-align: center;
+}
+
+.imgContainer{
+    width: max-content;
+    overflow: hidden;
+    position: absolute;
+    left: calc(var(--card-Width)/3.4);
+    top: calc(var(--card-Width)/3.4);
+    border-radius: 50%;
+}
+
+.cocialContainer{
+    width:inherit;
+    height: auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cocialContainer>div{
+    border-radius: 50%;
+}

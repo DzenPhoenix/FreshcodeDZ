@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DZ-4.2</title>
+    <link rel="stylesheet" href="src/style/index.css" />
+  </head>
+  <body>
+    <div class="mainContainer">
+      <div class="registerContainer">
+        <div class="line"></div>
+        <h1>Register</h1>
+        <div class="line"></div>
+      </div>
+      <p>Create your account.It's free and only takes a minute</p>
+      <form action="#" method="POST">
+        <div class="firstLastName">
+          <input
+            type="text"
+            placeholder="First Name"
+            name="firstName"
+            required
+          />
+          <input type="text" placeholder="Last Name" name="lastName" required />
+        </div>
+        <input type="text" placeholder="Email" name="email" />
+        <input type="password" placeholder="Password" name="password" />
+        <input
+          type="password"
+          placeholder="Confirm Password"
+          name="confirmPassword"
+        />
+        <div class="checkboxContainer">
+          <input type="checkbox" />
+          <p>
+            I accept the
+            <a href="#">Terms of Use & Privacy Policy</a>
+          </p>
+        </div>
+        <input type="submit" value="Register Now" />
+      </form>
+    </div>
+  </body>
+</html>

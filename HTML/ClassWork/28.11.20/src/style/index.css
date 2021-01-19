@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-size: 10px;
+    --main-color:White;
+    --secondary-color:black;
+    --auxiliary-color:rgb(38, 144, 212);
+}
+
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+
+.welcomeToAcme{
+    background-image: url("../img/bg-image.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 46vh;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+.welcomeToAcme> h1{
+    color:var(--main-color);
+    font-size: 4rem;
+    margin-top: 100px;
+}
+
+.welcomeToAcme>p{
+    color:var(--main-color);
+    width: 90%;
+    height: fit-content;
+    max-width: 830px;
+    font-size: 2rem;
+    margin-top: 30px;
+}
+
+
+.welcomeToAcme_btn{
+    display: block;
+    width: 160px;
+    height: 65px;
+    text-align: center;
+    border: 1px solid rgb(102, 102, 102);
+    background-color: rgb(51, 51, 51);
+    padding-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    color:var(--main-color);
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+.welcomeToAcme_btn:hover{
+    background-color: var(--main-color);
+    color: var(--secondary-color);
+}
+
+.webAndAplication{
+    width: 100%;
+    height: max-content;
+    background-color: rgb(234, 234, 234);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.webAndAplication>h1{
+    font-weight: bold;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+}
+
+.webAndAplication>div{
+    width: inherit;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: left;
+    margin-top: 30px;
+
+}
+
+.webAndAplication p{
+    font-size: 2rem;
+    width: 40%;
+    max-width: 420px;
+    padding-bottom: 40px;
+}
+
+.webDevelopContainer{
+    width: 100%;
+    min-width: 500px;
+    min-height: 567px;
+    background-color: rgb(51, 51, 51);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.webDevelop{
+    max-width: 273px;
+    min-width: 164px;
+    width: fit-content;
+    margin-top: 31px;
+    text-align: center;
+}
+
+.webDevelop>img{
+    width: 273px;
+    background-color: white;
+}
+
+.webDevelop>h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-top: 20px;
+    background-color: white;
+}
