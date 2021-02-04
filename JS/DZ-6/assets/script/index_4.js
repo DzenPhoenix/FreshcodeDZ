@@ -30,3 +30,5 @@ console.log(elem_6789);
 const [,,,...rest_3]=arr_1;
 
 console.log(rest_3);
+
+window.name="hello!";

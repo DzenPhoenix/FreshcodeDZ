@@ -1,0 +1,32 @@
+(?<=(\/\/)).+?(?=\.) - 1 part
+(?<=^(http(s)?:\/\/)?(www\.))(.+?)(?=\.)-2part
+^..[^tw].+(?=\.) - 3 part
+
+--------------------------------
+
+126dj17i4uc9ro620i0vy6z.de/
+h5es9d3q17e34to6lr6dh4ux.fr/img/
+https://aj03ie6b0ewo-euowzfu.fr/
+https://jsbwfufedl8bda0ip.com/archive/
+http://msniy0815jpc784kf4tl85nrw5i8d.pro/index.php
+https://j8gtwtxedvtdirp.tv/
+roafryn3qk1p4a9nqey3p6.fr
+http://fhjhew4i4sa1b9epx5lh6.jp/default.html
+lwvxoo8-sw9sravgptxophagajfl1b.com/users
+0b5a6tbv5arioz715.biz
+http://ov2qnemmwpp0y8q83wgqi2vm65fb.co.uk
+http://google.com
+http://ztsc9y69lew.tv
+www.xakep.ru
+http://github.com/carbonfive/raygun
+http://www.zombie-bites.com
+https://www.cnet.com
+https://youtube.com
+http://google.co.jp
+https://l3xw243.co.uk/
+7k9czgz6quw.pro/index.php
+e8396ks73jzb5b5cwqwfxflstpa.br/index.php
+srwfd4vjlkk37ix7g8-o7z.co/archive/
+qzwm3oo49y2q8sjh4ea.us/archive/
+5ru4it0zwzvzf4k8j0ag.co.uk/
+qbr2dolm0k6e-p.co.za
