@@ -33,6 +33,8 @@ export class Slider{
     }
     
     set setCurrentIndex(value){
+        if (typeof value !== 'number') throw new TypeError();
+        if (!Number.isSafeInteger(value) || value < 0 || value >= this.#slides.length) throw new RangeError();
         this.#currentIndex=value;
     }
 
