@@ -34,18 +34,19 @@ h1{
 }
 
 .slide{
-    width: 350px;
-    height: 350px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     position: relative;
     border: 1px solid grey;
+    
 }
 
 div>img{
     width:inherit;
+    object-fit: cover;
+    object-position: center;
 }
 
 .leftEndSlide{
