@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+.panel {
+  width: 33vw;
+  min-height: 90vh;
+  position: relative;
+  top: 5vh;
+  background-image: url("../img/wood-texture.jpg");
+  margin: 0 auto;
+  border-radius: 50px;
+  box-shadow: 10px 10px 10px teal;
+  padding: 50px;
+}
+
+.panelCreateTask {
+  border-bottom: 2px solid blue;
+  padding: 10px;
+}
+
+.textArea {
+  background-color: rgb(245, 190, 120);
+  resize: none;
+  border-radius: 5px;
+  color: blue;
+}
+
+.Description {
+  width: 100%;
+  height: 50px;
+  font-style: italic;
+  font-size: 16px;
+}
+
+.Title {
+  width: 100%;
+  height: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+  color: green;
+}
+
+.buttonPanel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.button {
+  position: relative;
+  font-size: 20px;
+  top: 0px;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: greenyellow;
+  top: 1px;
+  transition: top 0.5s;
+}
+
+.Add {
+  width: 100%;
+  background-color: green;
+}
+
+.Delete {
+  width: 30px;
+  background-image: url("../img/trash.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 30px;
+}
+
+.DeleteChecked{
+  width: 100%;
+  background-color: red;
+}
+
+.SetDone {
+  width: 30px;
+  height: 30px;
+}
+
+.panelToDo {
+  width: 100%;
+  padding: 10px;
+}
+
+.panelToDo > h1 {
+  font-size: medium;
+  color: blue;
+  height: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+.taskContainer {
+  width: 100%;
+  height: 60px;
+  font-weight: bold;
+  font-size: 14px;
+  color: green;
+  text-transform: uppercase;
+  padding: 10px;
+  background-color: rgb(245, 190, 120);
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  margin-top:10px;
+}
+
+.checkBoxTrue{
+  background-image: url("../img/doneLine.png");
+  background-size: cover;
+  background-position:center;
+}
+
+.taskContainer > p {
+  padding: 10px;
+  color: blue;
+}
+
+[data-tooltip] {
+  position: relative;
+}
+
+[data-tooltip]::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  width: 300px;
+  left: 0px;
+  top: 0;
+  background: darkcyan;
+  color: white;
+  padding: 10px;
+  box-shadow: 2px 2px 5px black;
+  opacity: 0;
+  transition: 1s;
+}
+
+[data-tooltip]:hover::after {
+  opacity: 1;
+  left: -630px;
+}

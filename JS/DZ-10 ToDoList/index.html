@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="assets/style/index.css" />
+    <script defer type="module" src="assets/script/controller/main.js"></script>
+  </head>
+
+  <body>
+    <div class="panel">
+      <div class="panelCreateTask">
+        <textarea
+        id="title"
+          class="textArea Title"
+          placeholder="Type task here"
+          rows="1"
+          cols="50"
+        ></textarea>
+        <textarea
+        id="description"
+          class="textArea Description"
+          placeholder="Type description here"
+          rows="5"
+          cols="50"
+        ></textarea>
+        <div class="buttonPanel">
+          <button class="button Add" name="addTask">Add task</button>
+        </div>
+      </div>
+
+      <div class="panelToDo">
+        <h1>Tasks:</h1>
+      </div>
+      <div class="buttonPanel">
+        <button class = "button DeleteChecked" name="deleteChecked">Clear checked tasks</button>
+      </div> 
+    </div>
+  </body>
+</html>
