@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: lightgrey;
+  margin: 0 auto;
+}
+
+.menu {
+  width: 100%;
+  height: 50px;
+  background-color: lightseagreen;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.item {
+  width: 20%;
+  height: 100%;
+  margin-left: 10px;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  padding-bottom: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.item:hover {
+  background-color: white;
+  color: black;
+}
+
+.subMenu {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: green;
+  border-radius: 10%;
+
+  font-size: 16px;
+  display: none;
+  z-index: 1;
+}
+
+.item:hover > .subMenu {
+  display: block;
+}
+
+.item:hover > a {
+  color: black;
+}
+
+a,
+a:visited,
+a:active,
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+.subItem {
+  padding: 10px 5px 10px 5px;
+  height: 50px;
+}
+
+.subItem:hover > a {
+  color: black;
+}
+
+@media screen and (max-width: 630px) {
+  .menu {
+    height: 100vh;
+    width: 150px;
+    background-color: lightseagreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    
+  }
+
+  .item {
+    height: 50px;
+    width:100%;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 0px;
+  }
+
+  .subMenu {
+      width:90%;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: green;
+    border-radius: 10%;
+  
+    display: none;
+    z-index: 1;
+  }
+}
